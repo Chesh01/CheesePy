@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>1dcd7efb-dc0b-424a-a7b3-7c351a657ae8</ProjectGuid>
+    <ProjectGuid>d2aa45d9-0b2a-451d-9582-627951dfde30</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CheesePy.py</StartupFile>
+    <StartupFile>Botpy.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>CheesePy</Name>
-    <RootNamespace>CheesePy</RootNamespace>
+    <Name>Botpy</Name>
+    <RootNamespace>Botpy</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CheesePy.py" />
+    <Compile Include="Botpy.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
